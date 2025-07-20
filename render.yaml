@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: tableau-dashboard
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    branch: main
+    repo: https://github.com/Dhara121/TableauDashboard
+
